@@ -41,7 +41,7 @@ $ mbed config ARM_PATH <FULL_PATH_TO_ARMCC_FOLDER>
 **Step 3.** Activate the virtual environment and update requirements. This is necessary when you open a new shell. **This should be done every time you pull new changes**
 
 ```
-$ venv/Scripts/activate   (For Linux)
+$ . venv/bin/activate   (For Linux)
 $ venv/Scripts/activate.bat   (For Windows)
 $ pip install -r requirements.txt
 ```
